@@ -74,8 +74,7 @@ public class Sorting {
 	/*
     Helper method merging lists.
      */
-	private static <K, V extends Comparable<V>> ArrayList<K> merge (HashMap<K, V> map, ArrayList<K> list1,
-																	ArrayList<K> list2) {
+	private static <K, V extends Comparable<V>> ArrayList<K> merge (HashMap<K, V> map, ArrayList<K> list1, ArrayList<K> list2) {
 		ArrayList<K> list = new ArrayList<>(list1.size() + list2.size());
 		int i = 0;
 		int j = 0;
